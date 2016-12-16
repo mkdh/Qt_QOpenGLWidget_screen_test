@@ -17,7 +17,7 @@ void MyGLWidget::initializeGL()
 {
     qDebug() << __func__;
     initializeOpenGLFunctions();
-    glClearColor(1.0f, 1.0f, 1.0f, 1.0f);// set background's color
+    glClearColor(0.0f, 1.0f, 0.0f, 1.0f);// set background's color
 }
 
 void MyGLWidget::paintGL(){
